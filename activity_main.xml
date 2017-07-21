@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:gravity="center"
+   android:orientation="vertical" >
+   tools:context=".MainActivity" >
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical" >
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:text="IP Address:"
+           android:id="@+id/textView" />
+
+       <EditText
+           android:layout_width="325dp"
+           android:layout_height="wrap_content"
+           android:hint="e.g. 192.168.0.10"
+           android:id="@+id/editTextIPAddress" />
+
+       <Button
+           android:id="@+id/BedRoom"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="BedRoom" />
+       <Button
+           android:id="@+id/Kitchen"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Kitchen" />
+
+       <Button
+           android:id="@+id/LivingRoom"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="LivingRoom" />
+       <Button
+           android:id="@+id/BathRoom"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="BathRoom" />
+
+       <Button
+           android:id="@+id/Garage"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="GarageDoor" />
+       <Button
+           android:id="@+id/Security"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="SecurityStatus" />
+   </LinearLayout>
+
+</LinearLayout>
+
